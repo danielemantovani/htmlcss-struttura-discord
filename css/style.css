@@ -6,6 +6,70 @@
     box-sizing: border-box;
 }
 
-.container-header{
-    background-color: aqua;
+/* header */
+
+.header{
+    background-color: lightblue;
+    /* debug */
+    height: 80px;
+    /* debug */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
+
+.container-header{
+    background-color: orange;
+    /* debug */
+    height: 30px;
+    /* debug */
+    width: 70%;
+    display: flex;
+}
+
+.logo{
+    border: 2px dotted black;
+    width: 20%;
+    height: 30px;
+    line-height: 20px;
+    padding: 3px;
+}
+
+.navigator{
+    border: 2px dotted black;
+    width: 80%;
+    height: 30px;
+    padding: 3px;
+    text-align: center;
+}
+
+.login{
+    border: 2px dotted black;
+    width: 20%;
+    height: 30px;
+    padding: 3px;
+    text-align: end;
+}
+
+/* banner */
+
+.container-banner{
+    background-color: rgb(34, 34, 127);
+    /* debug */
+    height: 400px;
+    /* debug */
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.rett-rosa{
+    background-color: palevioletred;
+    width: 65%;
+    height: 350px;
+}
+
+/* container generale */
+
+
