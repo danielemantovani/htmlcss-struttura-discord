@@ -33,9 +33,6 @@
 .header{
     background-color: lightblue;
     height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .container-header {
@@ -140,6 +137,7 @@
 
 .blocco5{
     background-color: rgb(53, 50, 50);
+    margin-bottom: 1px;
 }
 
 .container-colonne{
@@ -147,7 +145,7 @@
 }
 
 .colonna1{
-    background-color: brown;
+    background-color: rgb(199, 77, 77);
     width: calc(100%/6);
     flex-grow: 1;
     height: 350px;
@@ -162,4 +160,27 @@
 
 /* footer */
 
+.footer{
+    background-color: rgb(53, 50, 50);
+    height: 100px;
+    display: flex;
+}
 
+.container-footer{
+    background-color:aquamarine;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-footer{
+    background-color: rgb(199, 77, 77);
+    height: 20px;
+    text-align: center;
+}
+
+.bottone-footer{
+    background-color: rgb(199, 77, 77);
+    height: 20px;
+    text-align: center;
+}
